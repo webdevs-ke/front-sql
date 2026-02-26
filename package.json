@@ -1,0 +1,44 @@
+{
+  "name": "front-sql",
+  "version": "0.0.2",
+  "description": "A npm library package that allows frontend developers to create and query relational databases using SQL. The databases are stored persistently inside the client browser's IndexedDB storage system. This means that the databases and tables created using FrontSQL survive page reloads and are available offline. The library offers an interface to the SQL engine allowing users to run more than 80% of common SQL commands - with more SQL support under development.",
+  "author": {
+    "name": "Bernard Katiku Mutua",
+    "email": "katikumut@gmail.com",
+    "url": "https://benkatiku.netlify.app"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "nodejs",
+    "npm",
+    "database",
+    "front-sql",
+    "sql",
+    "indexeddb"
+  ],
+  "types": "./index.d.ts",
+  "files": [
+    "./*",
+    "./README.md"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^20.3.0",
+    "@angular/core": "^20.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "./fesm2022/front-sql.mjs",
+  "typings": "./index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/front-sql.mjs"
+    }
+  }
+}
