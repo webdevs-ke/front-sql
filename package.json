@@ -1,7 +1,7 @@
 {
   "name": "front-sql",
-  "version": "0.0.2",
-  "description": "A npm library package that allows frontend developers to create and query relational databases using SQL. The databases are stored persistently inside the client browser's IndexedDB storage system. This means that the databases and tables created using FrontSQL survive page reloads and are available offline. The library offers an interface to the SQL engine allowing users to run more than 80% of common SQL commands - with more SQL support under development.",
+  "version": "1.0.0",
+  "description": "A npm library that allows frontend developers to create and query relational databases using SQL. The databases are stored persistently inside the client browser's IndexedDB storage system. This means that the databases, tables, and files created and saved using FrontSQL survive page reloads and are available offline. The library offers an interface to the SQL engine allowing users to run more than 90% of common SQL commands - with more SQL support under development.",
   "author": {
     "name": "Bernard Katiku Mutua",
     "email": "katikumut@gmail.com",

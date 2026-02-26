@@ -1499,8 +1499,8 @@ class DatabaseService {
         return tables;
     }
     async dropDatabase(name) {
-        if (name === 'default') {
-            throw new Error('Cannot drop default database');
+        if (name === 'DEFAULT') {
+            throw new Error('Cannot drop DEFAULT database');
         }
         if (!this.databases.has(name))
             return;
@@ -1509,7 +1509,7 @@ class DatabaseService {
         // delete all tables belonging to this DB
         await this.store.deleteByPrefix(`${name}::`);
         if (this.currentDB === name) {
-            await this.useDatabase('default');
+            await this.useDatabase('DEFAULT');
         }
     }
     async createTable(name, columns) {
