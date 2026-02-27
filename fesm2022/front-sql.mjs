@@ -2149,24 +2149,20 @@ class FrontSql {
     static ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "20.3.16", type: FrontSql, isStandalone: true, selector: "lib-front-sql", ngImport: i0, template: `
   <div class="main">
    <div class="content">
-    <div class="left-side">
      <app-sql-console />
-    </div>
    </div>
   </div>
-  `, isInline: true, styles: [":root{--terminal-bg: #000000;--terminal-panel: #001a11;--terminal-border: #003322;--terminal-text-primary: #00ff88;--terminal-text-bright: #00ffaa;--terminal-text-dim: #004422;--terminal-text-soft: #66ff66;--terminal-error-bg: #220000;--terminal-error-border: #660000;--terminal-error-text: #ff4444;--terminal-glow-soft: 0 0 6px rgba(0, 255, 136, .4);--terminal-glow-strong: 0 0 12px rgba(0, 255, 136, .7);--terminal-font: \"Courier New\", monospace}.main{width:100%;min-height:100%;display:flex;justify-content:center;align-items:center;padding:1rem;box-sizing:inherit;position:relative}.content{display:flex;justify-content:space-around;width:100%;max-width:90%;margin-bottom:3rem}@media screen and (max-width: 650px){.content{flex-direction:column;width:max-content}}\n"], dependencies: [{ kind: "component", type: SqlConsoleComponent, selector: "app-sql-console" }] });
+  `, isInline: true, styles: [":root{--terminal-bg: #000000;--terminal-panel: #001a11;--terminal-border: #003322;--terminal-text-primary: #00ff88;--terminal-text-bright: #00ffaa;--terminal-text-dim: #004422;--terminal-text-soft: #66ff66;--terminal-error-bg: #220000;--terminal-error-border: #660000;--terminal-error-text: #ff4444;--terminal-glow-soft: 0 0 6px rgba(0, 255, 136, .4);--terminal-glow-strong: 0 0 12px rgba(0, 255, 136, .7);--terminal-font: \"Courier New\", monospace}.main{width:90%;min-height:100%;display:flex;justify-content:center;align-items:center;padding:1rem;box-sizing:inherit;position:relative}.content{display:flex;justify-content:space-around;max-width:98%;margin-bottom:3rem}@media screen and (max-width: 650px){.content{flex-direction:column;width:max-content}}\n"], dependencies: [{ kind: "component", type: SqlConsoleComponent, selector: "app-sql-console" }] });
 }
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "20.3.16", ngImport: i0, type: FrontSql, decorators: [{
             type: Component,
             args: [{ selector: 'lib-front-sql', imports: [SqlConsoleComponent], template: `
   <div class="main">
    <div class="content">
-    <div class="left-side">
      <app-sql-console />
-    </div>
    </div>
   </div>
-  `, styles: [":root{--terminal-bg: #000000;--terminal-panel: #001a11;--terminal-border: #003322;--terminal-text-primary: #00ff88;--terminal-text-bright: #00ffaa;--terminal-text-dim: #004422;--terminal-text-soft: #66ff66;--terminal-error-bg: #220000;--terminal-error-border: #660000;--terminal-error-text: #ff4444;--terminal-glow-soft: 0 0 6px rgba(0, 255, 136, .4);--terminal-glow-strong: 0 0 12px rgba(0, 255, 136, .7);--terminal-font: \"Courier New\", monospace}.main{width:100%;min-height:100%;display:flex;justify-content:center;align-items:center;padding:1rem;box-sizing:inherit;position:relative}.content{display:flex;justify-content:space-around;width:100%;max-width:90%;margin-bottom:3rem}@media screen and (max-width: 650px){.content{flex-direction:column;width:max-content}}\n"] }]
+  `, styles: [":root{--terminal-bg: #000000;--terminal-panel: #001a11;--terminal-border: #003322;--terminal-text-primary: #00ff88;--terminal-text-bright: #00ffaa;--terminal-text-dim: #004422;--terminal-text-soft: #66ff66;--terminal-error-bg: #220000;--terminal-error-border: #660000;--terminal-error-text: #ff4444;--terminal-glow-soft: 0 0 6px rgba(0, 255, 136, .4);--terminal-glow-strong: 0 0 12px rgba(0, 255, 136, .7);--terminal-font: \"Courier New\", monospace}.main{width:90%;min-height:100%;display:flex;justify-content:center;align-items:center;padding:1rem;box-sizing:inherit;position:relative}.content{display:flex;justify-content:space-around;max-width:98%;margin-bottom:3rem}@media screen and (max-width: 650px){.content{flex-direction:column;width:max-content}}\n"] }]
         }] });
 
 /*

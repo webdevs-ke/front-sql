@@ -186,3 +186,4 @@ declare class FrontSql {
 }
 
 export { DatabaseService, FrontSql, IndexedDbService, SqlEngineService };
+export type { FrontFile };
